@@ -35,3 +35,13 @@ docker-compose stop
 ```bash
 docker-compose rm -v
 ```
+
+## Start a container as background
+```bash
+docker-compose up -d db
+```
+
+## Run a container to debug
+```bash
+docker-compose run --service-ports web
+```
